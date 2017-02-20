@@ -10,7 +10,8 @@
     "husky": "^0.13.1"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint hello.js",
-    "precommit": "npm run lint"
+    "test": "npm run lint",
+    "precommit": "npm run lint",
+    "lint": "./node_modules/.bin/eslint hello.js"
   }
 }
